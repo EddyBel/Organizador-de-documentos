@@ -29,7 +29,7 @@ def organizar_archivos(ruta, diccionario):
             shutil.move(ruta_completa, os.path.join(carpeta_ruta, archivo))
 
 if __name__ == "__main__":
-    ruta_a_organizar = r"C:\Users\ben_9\Desktop\Principal\01_Documentos\02_Universidad\Princesa"
+    ruta_a_organizar = r"Ruta del archivo"
     
     diccionario_configuracion = {
     "Videos": [".mp4", ".mkv", ".avi", ".mov", ".wmv", ".flv"],
